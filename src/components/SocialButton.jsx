@@ -10,7 +10,7 @@ const icon2 = {
 };
 
 const SocialButton = ({ icon }) => {
-  const buttonClass = `btn btn-outline-dark mx-2 rounded-circle social-button`;
+  const buttonClass = `btn btn-outline-dark mx-2 rounded-circle social-button mx-1`;
   return (
       <button className={buttonClass}>
             <FontAwesomeIcon icon={icon2[icon]}/>
